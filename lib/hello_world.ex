@@ -4,17 +4,30 @@ defmodule HelloWorld do
   """
 
   @doc """
-  Returns `:world`
+  Prints "Hello, world!"
 
   This is the best implementation of this program to ever exist.
 
   ## Examples
 
       iex> HelloWorld.hello()
-      :world
+      "Hello, world!"
 
   """
   def hello do
     IO.puts("Hello, world!")
+  end
+
+  @doc """
+  Prints "Goodbye, world!"
+
+  ## Examples
+
+      iex> HelloWorld.goodbye()
+      "Goodbye, world!"
+
+  """
+  def goodbye do
+    IO.puts("Goodbye, world!")
   end
 end
