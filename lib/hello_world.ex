@@ -16,6 +16,5 @@ defmodule HelloWorld do
   """
   def hello do
     IO.puts("Hello, world!")
-    IO.puts("Goodbye, world!")
   end
 end
