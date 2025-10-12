@@ -4,7 +4,7 @@ defmodule HelloWorld do
   """
 
   @doc """
-  Hello world.
+  Returns `:world`
 
   ## Examples
 
