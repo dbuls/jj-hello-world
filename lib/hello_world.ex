@@ -6,6 +6,8 @@ defmodule HelloWorld do
   @doc """
   Returns `:world`
 
+  This is the best implementation of this program to ever exist.
+
   ## Examples
 
       iex> HelloWorld.hello()
