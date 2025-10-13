@@ -20,6 +20,7 @@ defmodule HelloWorld do
   """
   def hello do
     print("Hello, world!")
+    print("Goodbye, world!")
   end
 
   def print(msg) do
