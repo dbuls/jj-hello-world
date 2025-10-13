@@ -15,19 +15,20 @@ defmodule HelloWorld do
 
   """
   def hello do
-    IO.puts("Hello, world!")
+    print("Hello, world!")
+    print("Goodbye, world!")
   end
 
   @doc """
-  Prints "Goodbye, world!"
+  Prints a message
 
   ## Examples
 
-      iex> HelloWorld.goodbye()
+      iex> HelloWorld.print("Goodbye, world!")
       "Goodbye, world!"
 
   """
-  def goodbye do
-    IO.puts("Goodbye, world!")
+  def print(msg) do
+    IO.puts(msg)
   end
 end
