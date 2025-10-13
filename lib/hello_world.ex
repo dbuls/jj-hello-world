@@ -8,6 +8,10 @@ defmodule HelloWorld do
 
   This is the best implementation of this program to ever exist.
 
+  Truly.
+
+  Really.
+
   ## Examples
 
       iex> HelloWorld.hello()
@@ -19,6 +23,6 @@ defmodule HelloWorld do
   end
 
   def print(msg) do
-    IO.puts(msg)
+    IO.puts(msg <> "YOLO!")
   end
 end
