@@ -16,18 +16,8 @@ defmodule HelloWorld do
   """
   def hello do
     print("Hello, world!")
-    print("Goodbye, world!")
   end
 
-  @doc """
-  Prints a message
-
-  ## Examples
-
-      iex> HelloWorld.print("Goodbye, world!")
-      "Goodbye, world!"
-
-  """
   def print(msg) do
     IO.puts(msg)
   end
